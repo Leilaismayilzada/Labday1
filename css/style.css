@@ -1,42 +1,42 @@
 * {
     margin: 0;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/CZxYUWgWIAMnHff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .head {
     display: flex;
     background-color: white;
-height: 44px;
-
+    height: 44px;
 }
 
 .head li {
-  
     list-style: none;
     padding: 12px;
     font-size: medium;
-    border: 1px ;
     border-radius: 2px;
-
-
 }
-.head i{
+
+.head i {
     color: rgb(235, 121, 188);
 }
-
 
 section {
     max-height: fit-content;
     width: 100%;
     display: flex;
     justify-content: center;
-
 }
 
 .mainh {
     display: flex;
-
 }
 
 .mainh img {
@@ -46,189 +46,86 @@ section {
     background-color: rgb(21, 16, 16);
     border-radius: 30px;
     padding: 20px;
-
-
 }
 
-.mainh .mainh1 {
+.mainh1 {
     width: 50px;
     height: 50px;
     background-color: rgb(255, 255, 255);
-    margin-top: auto;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
-
 }
 
 .mainh1 i {
     font-size: 25px;
-
 }
-
-/* .mainh i{
-    border-radius: 50%;
-    background-color: aliceblue;
-    width: 50px;
-    height: 50px;
-    padding: 8px;
-    margin-left: 950px;
-    display: flex;
-    align-items: flex-end;
-    
-    
-   
-} */
-/*.search input{
-    background-color: rgb(255, 255, 255);
-   margin-left: 350px;
-margin-top: 20px;
-   width: 650px;
-   height: 45px;
-   border-radius: 30px;
-   
-} */
 
 .search {
     background-color: #ffffff;
     width: 650px;
     height: 50px;
-    margin-left: 300px;
-    margin-top: 10px;
+    margin: 20px auto;
     display: flex;
-    justify-content: first baseline;
+    justify-content: space-between;
     border-radius: 20px;
-
-
+    padding: 0 10px;
+    align-items: center;
 }
 
 .search input {
     outline: none;
-    border: 0;
+    border: none;
     width: 500px;
+    padding: 5px;
 }
 
 .search i {
-    width: 30px;
-    margin-top: 15px;
-    margin-left: 10px;
     color: grey;
 }
 
-/* 
-   .search i{
-        
-        color: #ffffff;
-        margin-top: 20px;
-        margin-left: 250px;
-   
-    }
-
-    .search input{
-        
-        margin-top: 40px;
-        height: 50px;
-        width: 650px;
-        border-radius: 20px;
-        padding: 30px;
-        font-size: large;
-    } */
-   
-    .top{
-        display: flex;
-        gap: 90px;
-
-        margin-top: 20px;
-       
-     }
-     .top img{
-      border-radius: 40px;
-        width: 30px;
-        height: 25px;
-     }
-    .top .top1 {
-        border-radius: 40px;
-        background-color: #ffffff;
-        padding: 15px;
-    }
-   
-    .top .top2{  border-radius: 40px;
-        background-color: #ffffff;
-        padding: 15px;
-        
-    }
-    .top .top3 {border-radius: 40px;
-        background-color: #ffffff;
-        padding: 13px;
-    }
-    .top .top4{
-        border-radius: 40px;
-        background-color: #ffffff;
-        padding: 13px;
-    }
-   .top .top5{
-    border-radius: 40px;
-    background-color: #ffffff;
-    padding: 14px;
-   }
-   .top .alt1 {border-radius: 40px;
-    background-color: #ffffff;
-    padding: 14px;
-
-   }
-  .top .alt2{
-    border-radius: 40px;
-    background-color: #ffffff;
-    padding: 14px;
-  }
-.top .alt3{
-    border-radius: 40px;
-    background-color: #ffffff;
-    padding: 14px;
+.top {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    margin: 20px 0;
 }
-.top .alt4{
-    border-radius: 40px;
+
+.top div {
     background-color: #ffffff;
-    padding: 14px;
-}
-.formalt{
-    width: 700px;
-    height: 350px;
-    background-color: #eaeded;
-   margin-left: 300px;
-   margin-top: 10px;
-   border-radius: 20px;
-   
-}
-.formalt p{
     padding: 15px;
-    margin-left: 24px;
-    color: #b1a9a9;
-}
- .formalt1{
-    width: 640px;
-    height: 350px;
-background-color: rgb(255, 255, 255);
-margin-left: 20px;
-border-radius: 30px;
-
-   
+    border-radius: 40px;
 }
 
-.f1 i{
-color: greenyellow;
-margin-left: 20px;
-margin-top: 20px; font-size: 20px;
-
+.top img {
+    border-radius: 40px;
+    width: 30px;
+    height: 25px;
 }
-.f2{
+
+.formalt {
+    width: 700px;
+    background-color: #eaeded;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.formalt1 {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.f1 i {
+    color: greenyellow;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.f2 {
     font-size: small;
-    margin-left: 40px;
     color: #595656;
-}
-
-.f3{
-    margin-left: 20px;
 }
